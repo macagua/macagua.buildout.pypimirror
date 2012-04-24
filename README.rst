@@ -15,24 +15,18 @@ http://cheeseshop.python.org/simple/ using `z3c.pypimirror module`_
 User guide
 ==========
 
-Just execute the following commands:
+Just execute the following commands: ::
 
-  .. code-block:: sh
+  $ python bootstrap.py
+  $ ./bin/buildout -vN
 
-      $ python bootstrap.py
-      $ ./bin/buildout -vN
+The first time you should be initialize your mirror, executing the following commands: ::
 
-The first time you should be initialize your mirror, executing the following commands:
+   $ ./bin/pypimirror --initial-fetch --follow-external-links --follow-external-index-pages ./pypimirror.cfg
 
-  .. code-block:: sh
+Later a crontab task does synchronization packages, you can see the crontab task defined, with the follow command: ::
 
-      $ ./bin/pypimirror --initial-fetch --follow-external-links --follow-external-index-pages ./pypimirror.cfg
-
-Later a crontab task does synchronization packages, you can see the crontab task defined, with the follow command:
-
-  .. code-block:: sh
-
-      $ crontab -l
+  $ crontab -l
 
 
 LICENSE
