@@ -42,9 +42,10 @@ GPL 2 version (GPL 2)
 Authors
 =======
 
-pypimirror.buildout the first configuration of these scripts took place at the Cenditel fundation since 2010 and involved the following persons:
+pypimirror.buildout the first configuration of these scripts took place at the `Cenditel fundation`_ since 2010 and involved the following persons:
 
 - Dhionel Diaz <ddiaz AT cenditel DOT gob.ve>
 - Leonardo J. Caballero G. <leonardocaballero AT gmail DOT com>
 
 .. _z3c.pypimirror module: http://pypi.python.org/pypi/z3c.pypimirror
+.. _Cenditel fundation: http://www.cenditel.gob.ve
