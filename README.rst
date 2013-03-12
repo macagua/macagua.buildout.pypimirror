@@ -21,13 +21,13 @@ Just execute the following commands: ::
   $ source ./bin/activate
   $ python bootstrap.py
   $ ./bin/buildout -vvvN
-  $ desactivate
+  $ deactivate
 
 
 The first time you should be initialize your mirror, executing the following 
 commands: ::
 
-   $ ./bin/pypimirror --initial-fetch --follow-external-links --follow-external-index-pages ./pypimirror.cfg
+   $ ./bin/pypimirror --initial-fetch --follow-external-links --follow-external-index-pages --log-console ./pypimirror.cfg
 
 Later a crontab task does synchronization packages, you can see the crontab 
 task defined, with the follow command: ::
