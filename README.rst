@@ -10,7 +10,15 @@ Overview
 ========
 
 This buildout configuration provides a mirror for the PyPI simple interface,
-http://cheeseshop.python.org/simple/ using `z3c.pypimirror module`_
+http://cheeseshop.python.org/simple/ using `z3c.pypimirror module`_.
+
+Prerequisites
+=============
+
+For the installation is recommended that you install certain dependencies on 
+the operating system as shown below: ::
+
+  # aptitude install build-essential python-dev python-setuptools python-pip
 
 User guide
 ==========
