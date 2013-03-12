@@ -18,7 +18,7 @@ Prerequisites
 For the installation is recommended that you install certain dependencies on 
 the operating system as shown below: ::
 
-  # aptitude install build-essential python-dev python-setuptools python-pip
+  # aptitude install build-essential python-dev python-setuptools python-pip mercurial
 
 User guide
 ==========
