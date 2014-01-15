@@ -58,3 +58,9 @@ pypimirror.buildout the first configuration of these scripts took place at the
 
 .. _z3c.pypimirror module: http://pypi.python.org/pypi/z3c.pypimirror
 .. _Cenditel fundation: http://www.cenditel.gob.ve
+
+
+.. image:: https://d2weczhvl823v0.cloudfront.net/macagua/macagua.buildout.pypimirror/trend.png
+   :alt: Bitdeli badge
+   :target: https://bitdeli.com/free
+
